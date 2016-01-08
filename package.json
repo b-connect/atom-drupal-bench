@@ -1,0 +1,32 @@
+{
+  "name": "atom-drupal-bench",
+  "main": "./lib/atom-drupal-bench",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "atom-drupal-bench:toggle"
+  },
+  "repository": "https://github.com/atom/atom-drupal-bench",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "atom-space-pen-views": "^2.1.0",
+    "atom-utils": "^0.9.2",
+    "drush-node": "^0.1.3",
+    "filewalker": "^0.1.2",
+    "fs-finder": "^1.8.1",
+    "fs-plus": "^2.8.1",
+    "hashmap": "^2.0.4",
+    "js-yaml": "^3.4.6",
+    "md5": "^2.0.0",
+    "nedb": "^1.5.1",
+    "path": "^0.12.7",
+    "space-pen": "^5.1.1",
+    "touch": "^1.0.0",
+    "yamljs": "^0.2.4"
+  }
+}
